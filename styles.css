@@ -1,0 +1,28 @@
+body {
+  background-color: #32414a;
+  color: #44bba4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 10rem;
+  padding: 2rem;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+}
+
+.innercard {
+  display: flex;
+  justify-content: center;
+  background-color: #f6f7eb;
+  color: #32414a;
+  padding: 4rem;
+  margin: 0.5rem;
+  border-radius: 9px;
+}
